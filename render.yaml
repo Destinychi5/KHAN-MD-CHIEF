@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: khan-md-chief
+    runtime: node
+    buildCommand: npm install
+    startCommand: npm start
